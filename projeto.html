@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="projeto.css">
+  <title>Guardião</title>
+</head>
+<body>
+  
+  <header>
+    <img src="files/imagens/logo.png" alt="Logo da alura">
+  </header>
+  
+  <main class="main">
+    
+    <section>
+      <textarea class="input-texto" cols="40" rows="7" placeholder="Me conte o seu segredo:" autofocus></textarea>
+   
+      <div>
+        <h6 class=" informacao">*Apenas letras minúsculas e sem acentos</h6>
+      </div>
+      <div class="botoes">
+        <button class="encriptar" onclick="btnEncriptar()">
+          Guardar Segredo
+        </button>
+          
+        <button class="desencriptar" onclick="btnDesncriptar()">
+          Revelar Segredo
+        </button>
+  
+      </div>
+   
+   
+    </section>
+ 
+    
+    
+    <section>
+      <textarea  id= "mensagemSaida" class="mensagem" cols="18" rows="7"  placeholder="nenhum texto encontrado" readonly > 
+        
+        
+      </textarea>
+      <div class="btncopiar">
+        <button class="copiar" onclick="copyToClipBoard()">Copiar</button>
+
+      </div>
+
+      <section>
+      <div id="rodape">2022 Willian Santos | Programa Oracle Next Education</div>
+    </section>
+      
+    </section>
+    
+    
+
+
+
+  </main>
+  <script src="projeto.js"></script>
+
+</body>
+</html>
+
+
+
+
